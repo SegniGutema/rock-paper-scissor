@@ -50,8 +50,8 @@ buttons.forEach((btn) => {
         left:0;
         right:0;
         margin:auto;
-        width:60vw;
-        height:50vh;
+        width:60%;
+        height:50%;
         // display:block;
         display:grid;
         place-items:center;
@@ -61,7 +61,7 @@ buttons.forEach((btn) => {
         const h1 = document.createElement("h1");
 
         const playAgain = document.createElement("a");
-        // playAgain.setAttribute('href','game.html')
+
         playAgain.style.cssText = `
         width:150px;
         padding-top:7px;
@@ -93,9 +93,6 @@ buttons.forEach((btn) => {
         announcement.appendChild(h1);
         announcement.appendChild(playAgain);
         announcement.appendChild(cancel);
-
-        // announcement.classList.add('announcement')
-        // playAgain.href = "#playagain";
 
         if (playerWin > computerWin) {
           h1.textContent = "Congrats!!, You Won";

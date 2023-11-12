@@ -4,40 +4,40 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: rgb(7, 6, 22); */
   background: #222;
   color: #e0dfdf;
   font-size: 14px;
-  padding: 3rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
 }
 .title {
   text-align: center;
   color: rgb(255, 255, 255);
-  /* display: none; */
+
   background-color: rgb(44, 112, 44);
-  width: 400px;
+  width: min(80%, 400px);
   margin-inline: auto;
   padding: 15px;
   border-radius: 7px;
 }
 .game-page {
-  width: 80%;
+  width: 90%;
   display: grid;
   gap: 2rem;
-  padding: 2rem;
-  padding-bottom: 4rem;
-  margin-top: 10vh;
+  padding-top: 2rem;
+
+  padding-bottom: 3rem;
+  margin-top: 10%;
   background-color: #111;
-  /* background-color: #161935; */
+
   max-width: 1000px;
   margin-inline: auto;
   border-radius: 7px;
-  /* display: none; */
 }
 .game-page-header {
+  display: block;
   margin-inline: auto;
   text-align: center;
+  width: min(500px, 80%);
 }
 .cards {
   width: 90%;
@@ -56,8 +56,8 @@ body {
   display: grid;
   gap: 2rem;
   background-color: #000000;
-  /* background-color: #3b3232;  */
-  padding: 2rem;
+
+  padding: 1.5rem;
   border-radius: 5px;
 }
 .player-header,
