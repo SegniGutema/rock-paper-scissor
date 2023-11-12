@@ -50,7 +50,7 @@ buttons.forEach((btn) => {
         left:0;
         right:0;
         margin:auto;
-        width:60%;
+        width:80%;
         height:50%;
         // display:block;
         display:grid;
