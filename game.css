@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: rgb(7, 6, 22); */
+  background: #222;
+  color: #e0dfdf;
+  font-size: 14px;
+  padding: 3rem;
+  padding-bottom: 1rem;
+}
+.title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  /* display: none; */
+  background-color: rgb(44, 112, 44);
+  width: 400px;
+  margin-inline: auto;
+  padding: 15px;
+  border-radius: 7px;
+}
+.game-page {
+  width: 80%;
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  margin-top: 10vh;
+  background-color: #111;
+  /* background-color: #161935; */
+  max-width: 1000px;
+  margin-inline: auto;
+  border-radius: 7px;
+  /* display: none; */
+}
+.game-page-header {
+  margin-inline: auto;
+  text-align: center;
+}
+.cards {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 7px;
+}
+.player-card,
+.computer-card {
+  width: max(300px, 30%);
+  display: grid;
+  gap: 2rem;
+  background-color: #000000;
+  /* background-color: #3b3232;  */
+  padding: 2rem;
+  border-radius: 5px;
+}
+.player-header,
+.computer-header {
+  font-size: 18px;
+  width: 70%;
+}
+.player-score,
+.computer-score {
+  width: 70%;
+}
+.rps-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  margin-inline: auto;
+  width: 100%;
+}
+.rock,
+.paper,
+.scissor {
+  font-size: 13px;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(32, 119, 40);
+  cursor: pointer;
+  color: white;
+}
+#rock:active,
+#paper:active,
+#scissor:active {
+  background-color: #c40a29;
+}
+
+.hand-symbols {
+  width: min-content;
+  margin-inline: auto;
+}
+.footer {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 5rem;
+  margin-inline: auto;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222121;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.welcome-page {
+  width: 80%;
+  max-width: 800px;
+  display: grid;
+  place-items: center;
+}
+.welcome {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.play {
+  background-color: green;
+  text-decoration: none;
+  width: 100px;
+  height: 40px;
+  display: block;
+  padding: 1rem;
+  color: rgb(253, 246, 246);
+  border: none;
+  border-radius: 7px;
+  display: block;
+  margin-inline: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer {
+  font-size: 13px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  text-align: center;
+}
+
